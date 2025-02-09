@@ -5,12 +5,10 @@ on:
     branches:
       - master
       - main
-      - centrum
   pull_request:
     branches:
       - master
       - main
-      - centrum
 
 jobs:
   build:
