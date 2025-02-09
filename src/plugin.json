@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "panel",
+  "name": "Grafana Table",
+  "id": "targetenergy-grafana-table",
+  "info": {
+    "keywords": [
+      "panel"
+    ],
+    "description": "Grafana Table plugin",
+    "author": {
+      "name": "Target Energy Solutions"
+    },
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      {
+        "name": "Github",
+        "url": "https://github.com/tespkg/targetenergy-grafana-table"
+      }
+    ],
+    "screenshots": [
+      {
+        "name": "data",
+        "path": "img/data.png"
+      },
+      {
+        "name": "panel",
+        "path": "img/panel.png"
+      }
+    ],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=9.2.5",
+    "plugins": []
+  }
+}
