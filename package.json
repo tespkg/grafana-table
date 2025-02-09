@@ -1,6 +1,6 @@
 {
   "name": "grafana-table",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Grafana Table",
   "scripts": {
     "build": "webpack -c ./webpack.config.ts --env production",
